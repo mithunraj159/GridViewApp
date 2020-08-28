@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="Flowers" customModule="GridViewApp" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="Oqm-Tp-W2S" id="50H-Op-zeU"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Oqm-Tp-W2S">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Zg0-8N-4ad"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Oqm-Tp-W2S" secondAttribute="trailing" id="81Q-Ty-Wct"/>
+                <constraint firstItem="Oqm-Tp-W2S" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="OxY-u3-qg5"/>
+                <constraint firstAttribute="bottom" secondItem="Oqm-Tp-W2S" secondAttribute="bottom" id="jGr-SI-ILb"/>
+                <constraint firstItem="Oqm-Tp-W2S" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="zJc-oQ-HAF"/>
+            </constraints>
+            <point key="canvasLocation" x="140" y="154"/>
+        </customView>
+        <collectionViewItem id="sqw-xB-bVB" customClass="Flowers" customModule="GridViewApp" customModuleProvider="target"/>
+    </objects>
+</document>

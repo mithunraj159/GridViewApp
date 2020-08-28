@@ -11,6 +11,8 @@
 		D406F37024F76EB0008B6D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406F36F24F76EB0008B6D36 /* ViewController.swift */; };
 		D406F37224F76EB1008B6D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D406F37124F76EB1008B6D36 /* Assets.xcassets */; };
 		D406F37524F76EB1008B6D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D406F37324F76EB1008B6D36 /* Main.storyboard */; };
+		D406F37F24F782B0008B6D36 /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406F37D24F782B0008B6D36 /* Flowers.swift */; };
+		D406F38024F782B0008B6D36 /* Flowers.xib in Resources */ = {isa = PBXBuildFile; fileRef = D406F37E24F782B0008B6D36 /* Flowers.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		D406F37424F76EB1008B6D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D406F37624F76EB1008B6D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D406F37724F76EB1008B6D36 /* GridViewApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GridViewApp.entitlements; sourceTree = "<group>"; };
+		D406F37D24F782B0008B6D36 /* Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flowers.swift; sourceTree = "<group>"; };
+		D406F37E24F782B0008B6D36 /* Flowers.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Flowers.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				D406F37324F76EB1008B6D36 /* Main.storyboard */,
 				D406F37624F76EB1008B6D36 /* Info.plist */,
 				D406F37724F76EB1008B6D36 /* GridViewApp.entitlements */,
+				D406F37D24F782B0008B6D36 /* Flowers.swift */,
+				D406F37E24F782B0008B6D36 /* Flowers.xib */,
 			);
 			path = GridViewApp;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			files = (
 				D406F37224F76EB1008B6D36 /* Assets.xcassets in Resources */,
 				D406F37524F76EB1008B6D36 /* Main.storyboard in Resources */,
+				D406F38024F782B0008B6D36 /* Flowers.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D406F37F24F782B0008B6D36 /* Flowers.swift in Sources */,
 				D406F37024F76EB0008B6D36 /* ViewController.swift in Sources */,
 				D406F36E24F76EB0008B6D36 /* AppDelegate.swift in Sources */,
 			);
